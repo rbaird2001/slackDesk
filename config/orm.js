@@ -1,11 +1,11 @@
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-  host: "bootcampdb.cnt2iobbptak.us-east-2.rds.amazonaws.com",
+  host: "127.0.0.1",
   // Your port; if not 3306
   port: 3306,
   // Your username
-  user: "admin",
+  user: "deskman",
   // Your password
   password: process.env.AWS_DB,
   database: "desk"
